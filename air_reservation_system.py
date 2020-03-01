@@ -3,6 +3,7 @@ from pprint import pprint as pp
 from flight import Flight
 from airplanes import *
 from helpers import *
+
 f = Flight("LO124", AirbusA370())
 
 
@@ -18,5 +19,6 @@ def make_flight():
     pp(f.seats)
     print(f.num_empty_seats())
     f.print_tickets(card_printer)
+
 
 make_flight()
