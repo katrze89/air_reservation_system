@@ -1,0 +1,1 @@
+# krok po kroku jak zainstalowac paczke
